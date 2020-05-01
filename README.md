@@ -41,7 +41,7 @@ O seu login no sistema é especifico e pode ser feito utilizando os seguintes da
 #### Pedidos
 
 Ao acessar o sistema o Sr. Val é direcionado a página onde se encontram todos os pedidos.
-Para cada pedido, é possíver verificar seus detalhes ao clicar em cima da data e hora em que o pedido foi aberto;
+Para cada pedido, é possíver verificar seus detalhes ao clicar em cima da data e hora em que o pedido foi aberto.
 Como administrador o Sr.Val também pode realizar alterações no pedido, excluindo ou adicionando produtos e alterando o status.
 
 O status pode ser alterado para:
