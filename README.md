@@ -8,6 +8,8 @@ Este projeto foi desenvolvido exclusivamente como parte do processo seletivo par
 
 A documentação com as informações da atividade pode ser encontrada na pasta raiz desse repositório como "Desafio - Hamburgueria.pdf".
 
+As imagens dos print-screens do projeto estão localizadas na pasta "prints" localizada na raiz desse repositório.
+
 ## Instalação
 
 Para o desenvolvimento desse projeto foi utilizado o pacote de servidores XAMPP na versão v3.2.1 utilizando os modulos MySQL e Apache, juntamente com o framework CakePHP na versão 2.10.19, Bootstrap na versão 4.4.1 e também o conjunto Font Awesome em seu kit gratuito.
