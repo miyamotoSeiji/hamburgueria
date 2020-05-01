@@ -14,7 +14,7 @@ class Pedido extends AppModel {
     
     public function cancelarPedido($pedido) {
         $this->id = $pedido['Pedido']['id'];
-        $pedidoCancelado = $this->saveField('status_id', 7);
+        $pedidoCancelado = $this->saveField('status_id', 8);
         
         return $pedidoCancelado;
     }
