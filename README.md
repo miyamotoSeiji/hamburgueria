@@ -147,7 +147,7 @@ Listarei nessa seção os problemas encontrados e possíveis melhorias que podem
 
 ## Considerações finais
 
-Gostaria de agradecer pela oportunidade de participar desse processo seletivo apesar do curto tempo para desenvolvimento, foi bem divertido trabalhar nesse projeto, me faz querer melhorar e me esforçar para evoluir e aprender cada vez mais.
+Gostaria de agradecer pela oportunidade de participar desse processo seletivo apesar do curto tempo, foi bem divertido trabalhar nesse projeto, me faz querer melhorar e me esforçar para evoluir e aprender cada vez mais.
 Gostaria de ter aplicado coisas que estava começando a aprender em um curso a respeito de composer e migrate, mas por falta de experiência usando essas tecnologias acabei falhando e não conseguindo aplicar.
 Independente do resultado desse exame, estou muito contente, programar é uma das minhas paixões, tenho muito o que aprender ainda, e pra ser sincero estou bastante defasado com relação as novas tecnologias, mas só de saber que existem novas formas de se pensar e programar me deixa muito empolgado.
 
