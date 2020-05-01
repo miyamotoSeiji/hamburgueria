@@ -1,4 +1,4 @@
-# Animal Finder
+# Hamburgueria do Sr. Val
 
 Hamburgueria do Sr. Val é um aplicativo web para cadastro e gerenciamento de pedidos de produtos da lanchonete do Sr Valbernielson, onde seus clientes podem se cadastrar para realizar pedidos a serem preparados e entregues.
 
@@ -136,12 +136,12 @@ Este projeto foi desenvolvido exclusivamanente como processo seletivo para a vag
 Listarei nessa seção os problemas encontrados e possíveis melhorias que podem ser feitas.
 
 + Issues
-    + Validação no campo foto da entidade Animal, a validação para este campo não está funcionando, permitindo que o Dono realize a inclusão de qualquer tipo de arquivo, além de imagens
+    + Validação no campo foto da entidade Animal, a validação para este campo não está funcionando, permitindo que o Sr. Val realize a inclusão de qualquer tipo de arquivo, além de imagens
 + Melhorias    
     + As mensagens de notificação poderiam desaparecer após alguns segundos, liberando espaço em tela
     + Utilização do dropzone.js no upload de imagens, dessa forma, além de facilitar o carregamento da foto, seria possível ter um preview da imagem
     + Melhorias visuais, tanto nos formulários quanto nas páginas principais, foi utilizado o bootstrap, mas não foi possível aproveitar todo seu potêncial
-    + Mais testes unitários, aprender a realizar testes unitário na camada de controller.
+    + Mais testes unitários, os testes feitos foram realizados em cima das validações nos modelos, aprender a realizar testes unitário na camada de controller.
     + Não utilizei a versão mais recente do CakePHP pois, é com essa versão que eu estava acostuma do a trabalhar, para utilizar as versões mais recentes, devido as alterações gigantescas realizadas, não haveria tempo para reaprender e migrar. Mas fica aqui como possível melhoria.
     + Trabalhei nesse projeto com o conhecimento adquirido em meu útimo emprego, sei que hoje já existem novas teconologias e formas de se programar, porém não tive oportudade de aprende-las por enquanto, mas é um dos meus objetivos.
 
