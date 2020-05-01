@@ -55,6 +55,7 @@ O status pode ser alterado para:
 Em algumas situações o status se altera automaticamente, por exemplo:
 
 Assim que o cliente inicia seu pedido adicionando um produto, o status fica em "Escolhendo Produto", esse status só se alterá após o cliente enviar o pedido, mudando o status para "Enviado", a partir desse ponto, quem pode alterar o status é o Sr. Val.
+Ou caso o cliente faça logout sem enviar o pedido, o pedido muda seu status para "Cancelado".
 
 Caso o cliente altere alguma coisa no pedido com o status "Pedido Recebido", os sistema fara o status se tornar "Pedido Alterado", para que o Sr. Val saiba que algo pode ter sido mudado.
 

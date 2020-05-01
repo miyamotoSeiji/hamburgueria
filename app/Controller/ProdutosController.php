@@ -43,8 +43,8 @@ class ProdutosController extends AppController {
             $this->request->data['Produto']['user_id'] = $this->userLogado['User']['id'];
             if (!empty($this->request->data['Produto']['foto'])) {
                 new Folder(ROOT_URL . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'webroot' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'produtos' . DIRECTORY_SEPARATOR . $this->userLogado['User']['id'], true, 0666);
-                copy($this->request->data['Produto']['foto']['tmp_name'], ROOT_URL . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'webroot' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'produtos' . DIRECTORY_SEPARATOR . $this->userLogado['User']['id'] . DIRECTORY_SEPARATOR . 'foto' . $this->request->data['Produto']['nome'] . date('dmYHis') . '.jpg');
-                $this->request->data['Produto']['foto'] = 'foto' . $this->request->data['Produto']['nome'] . date('dmYHis') . '.jpg';
+                copy($this->request->data['Produto']['foto']['tmp_name'], ROOT_URL . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'webroot' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'produtos' . DIRECTORY_SEPARATOR . $this->userLogado['User']['id'] . DIRECTORY_SEPARATOR . 'foto' . $this->request->data['Produto']['nome'] . date('dmYHi') . '.jpg');
+                $this->request->data['Produto']['foto'] = 'foto' . $this->request->data['Produto']['nome'] . date('dmYHi') . '.jpg';
             }
             if ($this->Produto->save($this->request->data)) {
                 $this->Flash->set('O cadastro foi salvo com sucesso!', array('params' => array('class' => 'alert alert-success')));
@@ -63,8 +63,8 @@ class ProdutosController extends AppController {
         if ($this->request->is(array('post', 'put'))) {
             $this->Produto->id = $id;
             if (!empty($this->request->data['Produto']['foto']['tmp_name'])) {
-                copy($this->request->data['Produto']['foto']['tmp_name'], ROOT_URL . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'webroot' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'produtos' . DIRECTORY_SEPARATOR . $this->userLogado['User']['id'] . DIRECTORY_SEPARATOR . 'foto' . $this->request->data['Produto']['nome'] . date('dmYHis') . '.jpg');
-                $this->request->data['Produto']['foto'] = 'foto' . $this->request->data['Produto']['nome'] . date('dmYHis') . '.jpg';
+                copy($this->request->data['Produto']['foto']['tmp_name'], ROOT_URL . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'webroot' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'produtos' . DIRECTORY_SEPARATOR . $this->userLogado['User']['id'] . DIRECTORY_SEPARATOR . 'foto' . $this->request->data['Produto']['nome'] . date('dmYHi') . '.jpg');
+                $this->request->data['Produto']['foto'] = 'foto' . $this->request->data['Produto']['nome'] . date('dmYHi') . '.jpg';
             } else {
                 unset($this->request->data['Produto']['foto']);
             }
