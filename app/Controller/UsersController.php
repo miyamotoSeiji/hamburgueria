@@ -20,11 +20,14 @@ class UsersController extends AppController {
     }
     
     public function logout() {
+        $userLogado = $this->Session->read('userLogado');
         $this->Session->delete('userLogado');
         $pedido = $this->Session->read('pedido');
         if (!empty($pedido)) {
             $modelPedido = ClassRegistry::init('Pedido');
-            $modelPedido->cancelarPedido($pedido);
+            if ($userLogado['User']['user_type'] != 'admin') {
+                $modelPedido->cancelarPedido($pedido);
+            }
         }
         $this->Session->delete('pedido');
         $this->redirect('/entrar');
